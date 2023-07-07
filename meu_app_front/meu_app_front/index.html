@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>MPV - PUC Rio - Full Stack Básico</title>
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+
+<!-- Cabeçalho de informações do sistema -->
+<header class="logo" style="padding:10px 6px">
+    <div class="banner">
+        <img src="img/logo-brasileirao.png"
+        alt="y">
+    </div>
+    
+    <h1 class="titulo">Gols no Campeonato Brasileiro</h1>
+    <h2>Serie A - 2023</h2>
+
+</header>
+
+</div>
+
+<!-- Opções para adicionar um novo item -->
+<div>
+<section class="newItem">
+    <input type="text" id="newJogador" placeholder="Nome Jogador:">
+    <input type="text" id="newTime_jogador" placeholder="Time jogador:">
+    <input type="text" id="newTime_adversario" placeholder="Time Adversario:">
+    <input type="text" id="newRodada" placeholder="Rodada:">
+    <input type="text" id="newMin_gol" placeholder="Minuto do Gol">
+    <span onclick="newItem()" class="addBtn">Adicionar</span>
+</section>
+</div>
+
+<!-- Tabela com items existentes -->
+<section class="items">
+    <div class="container">
+        <table id="myTable">
+            <thead>
+                <tr>
+                <th>Jogador</th>
+                <th>Time Jogador</th>
+                <th>Adversario</th>
+                <th>Rodada</th>
+                <th>Minuto</th>
+                <th>ID</th>
+                <th><img src="img/excluir.png" width="25px" height="25px"></th>
+            </thead>
+                </tr>
+                <tbody></tbody>
+        </table>
+            
+                
+    </div>    
+</section>
+
+
+<script src="scripts.js"></script>
+</body>
+</html>
