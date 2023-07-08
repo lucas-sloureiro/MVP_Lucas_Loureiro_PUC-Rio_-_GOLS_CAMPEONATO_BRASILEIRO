@@ -1,4 +1,4 @@
-# API - Cadastrod e gols do Brasileirão - Lucas Loureiro
+# API - Cadastro de gols do Brasileirão - Lucas Loureiro
 
 Este pequeno projeto faz parte do MVP da PUC, sprint **Desenvolvimento Full Stack Básico** 
 
